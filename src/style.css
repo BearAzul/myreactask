@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+table tr td {
+  @apply pe-2 py-1;
+}
+
+.nav-btn {
+  @apply text-slate-800 hover:bg-teal-600 hover:text-white py-1 px-2 rounded-sm text-sm transition duration-300 ease-in-out;
+}
+
+.active {
+  @apply bg-teal-600 text-white;
+}
+
+.rotate-animation {
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
