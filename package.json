@@ -1,7 +1,7 @@
 {
   "homepage": "https://bearazul.github.io/myreactask",
   "name": "tugas-praktik",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {

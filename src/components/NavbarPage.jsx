@@ -17,7 +17,7 @@ const NavBar = () => {
               React<span className="!text-teal-400">Task</span>
             </h1>
             <div className="flex items-center gap-5 lg:gap-3 text-slate-800">
-              <NavLink to="/myreactask" className="nav-btn">
+              <NavLink to="/" className="nav-btn">
                 Home
               </NavLink>
 

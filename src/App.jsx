@@ -11,9 +11,9 @@ import NotFound from "./pages/NotFound.jsx";
 
 const App = () => {
   return (
-    <Router basename="/myreactask">
+    <Router>
       <Routes>
-        <Route path="/myreactask" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/tugaspraktik2" element={<TaskTwo />} />
         <Route path="/tugaspraktik3" element={<TaskThree />} />
         <Route path="/tugaspraktik4" element={<TaskFour />} />
