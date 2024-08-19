@@ -4,10 +4,10 @@ import "../style.css";
 
 const NavBar = () => {
   const [showTask, setShowTask] = useState(false);
-
   const btnTask = () => {
     setShowTask(!showTask);
   };
+  
   return (
     <>
       <header className="fixed w-full bg-gray-100">
